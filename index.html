@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moje porfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+
+        <header class="site-header">
+            <div class="container header-inner">
+                <h1 class="logo"> Alicja Sieradzka</h1>
+
+                <button id="menu-toggle" class="menu-btn" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="active">O mnie</a> </li>
+                        <li><a href="galety.html">Hobby</a> </li>
+                        <li><a href="cv.html">Działalność</a> </li>
+                        <li><a href="contact.html">Kontakt</a> </li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="btn-secondary">Motyw</button>
+            </div>
+        </header>
+
+        <main class="container">
+
+            <section class="profile-photo-section">
+                <img src="IMG_9355.jpg" alt="Zdjęcie profilowe" class="profile-img">
+            </section>
+
+            <section class="hero">
+                <h2>Hejka! Jeśli ciekawi Cię kim jestem to dobrze trafiłeś</h2>
+                <p>Ta strone jest idalnym miejscem, żeby dowiedzieć się czegoś o mnie</p>
+                
+            </section>
+
+            <section class="about-me">
+                <article class="card">
+                    <h3>Kilka słów o mnie</h3>
+                    <p>
+                        Studiuje aktualnie informatyke na AGH. Przetrwałam do drugiego roku, z czego jestem bardzo dumna. Kiedyś nie wierzyłam jak mi mówiono, że studia to najlepszy okres w życiu człowieka, ale teraz mogę się z tym zgodzić w 100%.
+                    </p>
+                    <p>
+                        Działam tez w samorządzie wydziałowym, gdzie spełniam się w troche innych dziedzinach niż informatyka, bo np. tworze treści wideo na social media, albo pomagam w organizacji wydarzeń dla studentów.
+                    </p>
+                </article>
+            </section>
+
+            <section class="reel-section">
+                <h2>WATCH ME</h2>
+                <div class="reel-container">
+                    <video controls>
+                        <source src="media/rolka.MP4" type="video/mp4">
+                        Ups
+                    </video>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>&copy; 2026 Alicja Sieradzka</p>
+            </div>
+        </footer>
+
+        <script src="ss.js"></script>
+    </body>
+</html>
